@@ -1,0 +1,35 @@
+//variables
+$pequeno: 320px
+$mediano: 764px
+$grande: 1200px
+*	
+	box-sizing: border-box
+	margin: 0
+	padding: 0
+
+.contenedor
+	margin-left: 10%
+	width: 80%
+	
+.reng
+	display: flex
+	flex-wrap: wrap
+
+@for $i from 1 through 12
+	.p-#{$i}
+		width: ($i/12)*100%
+@media (min-width:$mediano)
+	@for $i from 1 through 12
+		.m-#{$i}
+			width: ($i/12)*100%
+			flex: none
+	.contenedor
+		margin-left: 5%
+		width: 90%
+@media (min-width:$grande)
+	@for $i from 1 through 12
+		.g-#{$i}
+			width: ($i/12)*100%
+	.contenedor
+		margin-left: 2.5%
+		width: 95%	
