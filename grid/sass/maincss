@@ -247,28 +247,5 @@
   .contenedor {
     margin-left: 2.5%;
     width: 95%; } }
-.boton-alert {
-  width: 100px; }
 
-.boton-2 {
-  width: 200px; }
-
-.boton-3 {
-  width: 300px; }
-
-.boton-4 {
-  width: 400px; }
-
-.boton-5 {
-  width: 500px; }
-
-.boton-6 {
-  width: 600px; }
-
-.boton-7 {
-  width: 700px; }
-
-.boton-8 {
-  width: 800px; }
-
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=maincss.map */

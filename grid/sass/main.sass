@@ -18,11 +18,15 @@ $grande: 1200px
 @for $i from 1 through 12
 	.p-#{$i}
 		width: ($i/12)*100%
+	.p-espacio-#{$i}
+		margin-left: ($i/12)*100%
 @media (min-width:$mediano)
 	@for $i from 1 through 12
 		.m-#{$i}
 			width: ($i/12)*100%
 			flex: none
+		.m-espacio-#{$i}
+			margin-left: ($i/12)*100%
 	.contenedor
 		margin-left: 5%
 		width: 90%
@@ -30,6 +34,8 @@ $grande: 1200px
 	@for $i from 1 through 12
 		.g-#{$i}
 			width: ($i/12)*100%
+		.g-espacio-#{$i}
+			margin-left: ($i/12)*100%
 	.contenedor
 		margin-left: 2.5%
 		width: 95%	
