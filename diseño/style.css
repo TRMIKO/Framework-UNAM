@@ -1,0 +1,39 @@
+/*Links*/
+.link a:link, a:active{
+  color: #0073CA;
+}
+.link a:visited{
+  color: #3A45A5;
+  text-decoration: underline;
+}
+.link a:hover{
+  color: #005FA4;
+  text-decoration: underline;
+}
+/*Cajas de texto*/
+.caja_de_texto input [type=text]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.caja_de_texto_contaseña input[type=password]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box; 
+}
+.caja_de_texto_numero input[typer=number]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+/*Menú desplegable*/
+.menu_desplegable select {
+    width: 50%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
