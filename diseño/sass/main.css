@@ -1,7 +1,28 @@
-.a {
-  width: 100px; }
+.Tamanio1 .Tamanio2 .Tamanio3 .Tamanio4 .Tamanio5 {
+  text-decoration: underline; }
 
-.p {
-  width: 100px; }
+body {
+  font-family: Arial; }
+
+.enlace a:link a:active {
+  color: #002B7A; }
+
+.enlace a:visited {
+  color: #214C9B;
+  text-decoration: underline; }
+
+.enlace a:hover {
+  color: #214C9B;
+  text-decoration: underline; }
+
+h1 h2 h3 h4 h5 {
+  text-align: center; }
+
+.caja_de_textos {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  align: center; }
 
 /*# sourceMappingURL=main.css.map */
