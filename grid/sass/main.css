@@ -11,6 +11,9 @@ p {
   border: solid;
   padding: 1.2rem 0; }
 
+h1 {
+  padding: 0; }
+
 .contenedor {
   margin-left: 10%;
   width: 80%; }
