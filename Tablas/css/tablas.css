@@ -1,0 +1,147 @@
+/* line 20, ../sass/tablas.sass */
+.tabla-s1 {
+  width: 500px;
+  background-color: #b7dbf3;
+  border-collapse: collapse;
+}
+/* line 24, ../sass/tablas.sass */
+.tabla-s1 td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/* line 27, ../sass/tablas.sass */
+.tabla-s1 th {
+  padding: 5px;
+  text-align: left;
+  width: 500px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/* line 33, ../sass/tablas.sass */
+.tabla-s1 table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* line 38, ../sass/tablas.sass */
+.tabla-i1 {
+  width: 500px;
+  border-collapse: collapse;
+}
+/* line 42, ../sass/tablas.sass */
+.tabla-i1 td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/* line 45, ../sass/tablas.sass */
+.tabla-i1 th {
+  padding: 5px;
+  text-align: left;
+  background-color: #b7dbf3;
+  width: 500px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+/* line 52, ../sass/tablas.sass */
+.tabla-i1 tr:nth-child(even) {
+  background-color: #b5eecd;
+}
+/* line 54, ../sass/tablas.sass */
+.tabla-i1 tr:nth-child(odd) {
+  background-color: #b8bfc7;
+}
+/* line 57, ../sass/tablas.sass */
+.tabla-i1 table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* line 61, ../sass/tablas.sass */
+.tabla-sb1 {
+  width: 500px;
+  background: #b5eecd;
+  border-collapse: collapse;
+}
+/* line 65, ../sass/tablas.sass */
+.tabla-sb1 td {
+  padding: 5px;
+  text-align: left;
+  border-collapse: collapse;
+}
+/* line 68, ../sass/tablas.sass */
+.tabla-sb1 th {
+  padding: 5px;
+  text-align: left;
+  background-color: #b7dbf3;
+  width: 500px;
+  border-collapse: collapse;
+}
+/* line 74, ../sass/tablas.sass */
+.tabla-sb1 table {
+  border-collapse: collapse;
+}
+
+/* line 78, ../sass/tablas.sass */
+.tabla-sbi1 {
+  width: 500px;
+  border-collapse: collapse;
+}
+/* line 82, ../sass/tablas.sass */
+.tabla-sbi1 td {
+  padding: 5px;
+  text-align: left;
+  border-collapse: collapse;
+}
+/* line 85, ../sass/tablas.sass */
+.tabla-sbi1 th {
+  padding: 5px;
+  text-align: left;
+  background-color: #b7dbf3;
+  width: 500px;
+  border-collapse: collapse;
+}
+/* line 91, ../sass/tablas.sass */
+.tabla-sbi1 tr:nth-child(even) {
+  background-color: #b5eecd;
+}
+/* line 93, ../sass/tablas.sass */
+.tabla-sbi1 tr:nth-child(odd) {
+  background-color: #b8bfc7;
+}
+/* line 96, ../sass/tablas.sass */
+.tabla-sbi1 table {
+  border-collapse: collapse;
+}
+
+/* line 104, ../sass/tablas.sass */
+.tabla-bi1 {
+  width: 500px;
+  background-color: #b7dbf3;
+  border-collapse: collapse;
+}
+/* line 108, ../sass/tablas.sass */
+.tabla-bi1 td {
+  padding: 5px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+/* line 111, ../sass/tablas.sass */
+.tabla-bi1 th {
+  padding: 5px;
+  text-align: left;
+  width: 500px;
+  border-bottom: 1px solid black;
+}
+/* line 115, ../sass/tablas.sass */
+.tabla-bi1 table {
+  border-collapse: collapse;
+}
+
+/* line 122, ../sass/tablas.sass */
+.destello tr:hover {
+  background-color: whitesmoke;
+}
