@@ -1,0 +1,23 @@
+.boton
+	display: inline-block
+	padding: .5rem
+	text-decoration: none
+	color: white
+	width: 5rem
+	&-cuidado
+		background: $cuidado
+		@extend .boton
+		
+	&-correcto
+		background: $correcto
+		@extend .boton
+
+	&-incorrecto
+		background: $incorrecto
+		@extend .boton
+
+	&-info
+		background: $info
+		@extend .boton	
+	&-redondo
+		border-radius: 10px

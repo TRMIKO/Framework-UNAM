@@ -1,0 +1,294 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px;
+  text-align: center; }
+
+p {
+  border: solid;
+  padding: 1.2rem 0; }
+
+.sin-borde {
+  border: none; }
+
+h1 {
+  padding: 0; }
+
+.boton, .boton-cuidado, .boton-correcto, .boton-incorrecto, .boton-info {
+  display: inline-block;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+  width: 5rem; }
+  .boton-cuidado {
+    background: #FFD13B; }
+  .boton-correcto {
+    background: #137D3F; }
+  .boton-incorrecto {
+    background: #D83C3C; }
+  .boton-info {
+    background: #416FAD; }
+  .boton-redondo {
+    border-radius: 10px; }
+
+.contenedor {
+  margin-left: 10%;
+  width: 80%; }
+
+.reng {
+  display: flex;
+  flex-wrap: wrap; }
+
+.p-1 {
+  width: 8.33333%;
+  padding: 0.5rem; }
+
+.p-espacio-1 {
+  margin-left: 8.33333%; }
+
+.p-2 {
+  width: 16.66667%;
+  padding: 0.5rem; }
+
+.p-espacio-2 {
+  margin-left: 16.66667%; }
+
+.p-3 {
+  width: 25%;
+  padding: 0.5rem; }
+
+.p-espacio-3 {
+  margin-left: 25%; }
+
+.p-4 {
+  width: 33.33333%;
+  padding: 0.5rem; }
+
+.p-espacio-4 {
+  margin-left: 33.33333%; }
+
+.p-5 {
+  width: 41.66667%;
+  padding: 0.5rem; }
+
+.p-espacio-5 {
+  margin-left: 41.66667%; }
+
+.p-6 {
+  width: 50%;
+  padding: 0.5rem; }
+
+.p-espacio-6 {
+  margin-left: 50%; }
+
+.p-7 {
+  width: 58.33333%;
+  padding: 0.5rem; }
+
+.p-espacio-7 {
+  margin-left: 58.33333%; }
+
+.p-8 {
+  width: 66.66667%;
+  padding: 0.5rem; }
+
+.p-espacio-8 {
+  margin-left: 66.66667%; }
+
+.p-9 {
+  width: 75%;
+  padding: 0.5rem; }
+
+.p-espacio-9 {
+  margin-left: 75%; }
+
+.p-10 {
+  width: 83.33333%;
+  padding: 0.5rem; }
+
+.p-espacio-10 {
+  margin-left: 83.33333%; }
+
+.p-11 {
+  width: 91.66667%;
+  padding: 0.5rem; }
+
+.p-espacio-11 {
+  margin-left: 91.66667%; }
+
+.p-12 {
+  width: 100%;
+  padding: 0.5rem; }
+
+.p-espacio-12 {
+  margin-left: 100%; }
+
+@media (min-width: 764px) {
+  .m-1 {
+    width: 8.33333%;
+    flex: none; }
+
+  .m-espacio-1 {
+    margin-left: 8.33333%; }
+
+  .m-2 {
+    width: 16.66667%;
+    flex: none; }
+
+  .m-espacio-2 {
+    margin-left: 16.66667%; }
+
+  .m-3 {
+    width: 25%;
+    flex: none; }
+
+  .m-espacio-3 {
+    margin-left: 25%; }
+
+  .m-4 {
+    width: 33.33333%;
+    flex: none; }
+
+  .m-espacio-4 {
+    margin-left: 33.33333%; }
+
+  .m-5 {
+    width: 41.66667%;
+    flex: none; }
+
+  .m-espacio-5 {
+    margin-left: 41.66667%; }
+
+  .m-6 {
+    width: 50%;
+    flex: none; }
+
+  .m-espacio-6 {
+    margin-left: 50%; }
+
+  .m-7 {
+    width: 58.33333%;
+    flex: none; }
+
+  .m-espacio-7 {
+    margin-left: 58.33333%; }
+
+  .m-8 {
+    width: 66.66667%;
+    flex: none; }
+
+  .m-espacio-8 {
+    margin-left: 66.66667%; }
+
+  .m-9 {
+    width: 75%;
+    flex: none; }
+
+  .m-espacio-9 {
+    margin-left: 75%; }
+
+  .m-10 {
+    width: 83.33333%;
+    flex: none; }
+
+  .m-espacio-10 {
+    margin-left: 83.33333%; }
+
+  .m-11 {
+    width: 91.66667%;
+    flex: none; }
+
+  .m-espacio-11 {
+    margin-left: 91.66667%; }
+
+  .m-12 {
+    width: 100%;
+    flex: none; }
+
+  .m-espacio-12 {
+    margin-left: 100%; }
+
+  .contenedor {
+    margin-left: 5%;
+    width: 90%; } }
+@media (min-width: 1200px) {
+  .g-1 {
+    width: 8.33333%; }
+
+  .g-espacio-1 {
+    margin-left: 8.33333%; }
+
+  .g-2 {
+    width: 16.66667%; }
+
+  .g-espacio-2 {
+    margin-left: 16.66667%; }
+
+  .g-3 {
+    width: 25%; }
+
+  .g-espacio-3 {
+    margin-left: 25%; }
+
+  .g-4 {
+    width: 33.33333%; }
+
+  .g-espacio-4 {
+    margin-left: 33.33333%; }
+
+  .g-5 {
+    width: 41.66667%; }
+
+  .g-espacio-5 {
+    margin-left: 41.66667%; }
+
+  .g-6 {
+    width: 50%; }
+
+  .g-espacio-6 {
+    margin-left: 50%; }
+
+  .g-7 {
+    width: 58.33333%; }
+
+  .g-espacio-7 {
+    margin-left: 58.33333%; }
+
+  .g-8 {
+    width: 66.66667%; }
+
+  .g-espacio-8 {
+    margin-left: 66.66667%; }
+
+  .g-9 {
+    width: 75%; }
+
+  .g-espacio-9 {
+    margin-left: 75%; }
+
+  .g-10 {
+    width: 83.33333%; }
+
+  .g-espacio-10 {
+    margin-left: 83.33333%; }
+
+  .g-11 {
+    width: 91.66667%; }
+
+  .g-espacio-11 {
+    margin-left: 91.66667%; }
+
+  .g-12 {
+    width: 100%; }
+
+  .g-espacio-12 {
+    margin-left: 100%; }
+
+  .contenedor {
+    margin-left: 2.5%;
+    width: 95%; } }
+
+/*# sourceMappingURL=main.css.map */
